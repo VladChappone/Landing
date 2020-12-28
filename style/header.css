@@ -1,0 +1,54 @@
+.header-overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.85);
+  transition: 0.5s;
+  overflow-y: hidden;
+}
+
+.header-overlay-content {
+  position: relative;
+  top: 10%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.header-overlay-content__links a {
+  font-size: 35px;
+  line-height: 80px;
+}
+.hamburger-icon {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+  color: #ffffff;
+  opacity: 0.8;
+  transition: all 0.25s ease-in-out;
+}
+.hamburger-icon:hover {
+  opacity: 1;
+}
+.hamburger-icon:active {
+  transform: scale(0.7);
+}
+.closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.74;
+  transition: all 0.25s ease-in-out;
+}
+.closebtn:hover {
+  opacity: 1;
+  transform: scale(1.2);
+}
+.closebtn:active {
+  transform: scale(0.35);
+}
